@@ -82,6 +82,7 @@ O uso de `aiohttp` com `TCPConnector` e `ClientSession` permitiu controlar o nú
 ⚠️ A API está hospedada nos Estados Unidos, o que introduz uma latência natural nas requisições. Testes em ambiente local apresentaram tempos entre 2-4 segundos.
 
 💡 Para testes de performance, foi utilizada uma máquina virtual AWS localizada nos EUA. Nessas condições, o tempo médio de execução ficou em torno de **1 segundo**, evidenciando o impacto da latência de rede.
+![Preview](benchmarking.png)
 
 ---
 
