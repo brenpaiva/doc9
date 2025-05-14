@@ -1,14 +1,14 @@
 ﻿# Invoice Fetcher
 
-Projeto de automação para coleta de faturas vencidas através de uma tabela de um site [disponivel aqui  ](https://rpachallengeocr.azurewebsites.net/). A automação realiza o download das faturas e gera um relatório CSV com informações relevantes.
+Projeto de automação para coleta de faturas vencidas através de uma tabela do site [rpachallenger](https://rpachallengeocr.azurewebsites.net/). A automação realiza o download das faturas e gera um relatório CSV com informações relevantes.
 
 ---
 
 ## 🧠 Decisões Técnicas
 
-Inicialmente, a automação foi construída utilizando Selenium para simular a interação com o site. No entanto, esse método apresentava desempenho insatisfatório e alta fragilidade frente a mudanças no front-end (como alterações em `xpath` ou `ids`).
+Inicialmente, a automação foi construída utilizando Selenium para simular a interação com o site. No entanto, esse método apresentava desempenho insatisfatório e alta fragilidade frente a mudanças no front-end (como alterações em `xpath` ou `ids` etc).
 
-Ao investigar a comunicação do site via DevTools, foi identificado que a tabela de faturas era alimentada por uma API. Com isso, o projeto foi reestruturado para consumir diretamente essa API utilizando a biblioteca `aiohttp`, o que resultou em:
+Ao investigar a comunicação do site via DevTools, foi identificado que a tabela de faturas era alimentada por uma API. Com isso, o projeto foi reestruturado para consumir diretamente as informações da `DataTable` utilizando a biblioteca `aiohttp`, o que resultou em:
 - Maior velocidade de execução
 - Código mais simples e robusto
 - Eliminação de dependências frágeis de front-end
