@@ -1,6 +1,6 @@
 ﻿# Invoice Fetcher
 
-Projeto de automação para coleta de faturas vencidas através de uma API pública. Ele realiza o download das faturas e gera um relatório CSV com informações relevantes.
+Projeto de automação para coleta de faturas vencidas através de uma tabela de um site [disponivel aqui  ](https://rpachallengeocr.azurewebsites.net/). A automação realiza o download das faturas e gera um relatório CSV com informações relevantes.
 
 ---
 
