@@ -1,4 +1,4 @@
-﻿# Desafio Técnico - Dev RPA Jr. DOC9
+﻿# Desafio de auotmação
 
 Projeto de automação para coleta de faturas vencidas através de uma tabela do site [rpachallenger](https://rpachallengeocr.azurewebsites.net/). A automação realiza o download das faturas e gera um relatório CSV com informações relevantes.
 
